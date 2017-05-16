@@ -15,7 +15,7 @@
     <body>
       <header>
         <div id="topo">
-          <a href="http://usevou.com/new"><div id="logo_topo"><img src="imgs/sets/logo.png"></div></a>
+          <a href="http://usevou.com"><div id="logo_topo"><img src="imgs/sets/logo.png"></div></a>
           <nav>
             <ul>
               <a href="#home" class="scroll"><li>Home</li></a>
@@ -33,7 +33,7 @@
       <section id="home">
         <div class="content" style="height:650px;">
           <div id="left_home">
-            <div id="frase_home"><div id="frase">Descubra o melhor da noite e ganhe prêmios se divertindo!</div></div>
+            <div id="frase_home"><div id="frase">Descubra o melhor da noite e ganhe descontos se divertindo!</div></div>
             <div id="buttons_home">
               <!--<div class="button_store"><img src="imgs/sets/play.png"></div>
               <div class="button_store"><img src="imgs/sets/app.png"></div>-->
@@ -46,17 +46,15 @@
       </section>
       <section id="sobre">
         <div class="content">
-          <div class="title_section">Sobre o aplicativo</div>
-          <div class="desc_section">
-            Foi viajar, quer se divertir e não sabe pra onde ir? Quer saber o que tem de bom pra fazer na
-            sua cidade? Nós também! Por isso desenvolvemos o Vou, um app extremamente fácil de usar
-            com informações atualizadas sobre a vida noturna da sua cidade.
+          <div class="title_section">Sobre</div>
+          <div class="desc_section" style="text-align:justify;">
+            Somos uma plataforma completa especialmente pensada para você que gosta de viver o melhor da noite e não tem tempo a perder pesquisando em vários lugares para
+            onde ir ou o que fazer. Num <b>mapa</b>, você visualiza todas as festas, bares e pubs próximos e aplica <b>filtros</b> conforme o tipo de festa e distância desejada. Conta
+            ainda com uma <b>rede social</b> exclusiva e ganha <b>descontos</b> se divertindo!
             <br><br>
-            Tá achando que é só isso? E se nós te disséssemos que você ainda pode ganhar prêmios com
-            as suas saídas?
-            <br><br>
-            Ficou curioso? Então confere aí!
+            <div style="text-align:center;font-size:1.3em;">Ficou curioso? Então confere aí!</div>
           </div>
+          <div id="sl"><img style="display:none;" src="imgs/sets/seta_l.png"></div>
           <div id="carroussel">
             <div class="car" id="c1">
               <div class="text_car">
@@ -75,10 +73,10 @@
                 <div class="txt_car">
                   <div class="title_car">GANHE</div>
                   <p>Descobriu pra onde ir? Perfeito! Agora confirme presença no evento! Ao fazer isso, se o lugar que você comparecer for um parceiro da Vou, você estará apto a receber
-                  V$  (Vous) - a moeda virtual da Vou. Ao comparecer ao evento, é só aguardar em torno de uma hora e pronto, você ganhará seus V$! Ah, e fique tranquilo, pois o seu
+                  V$  (Vous) - a moeda virtual da Vou. Ao comparecer no evento, é só aguardar em torno de uma hora e pronto, você ganhará seus V$! Ah, e fique tranquilo, pois o seu
                   check-in não precisa ser público ( ͡° ͜ʖ ͡°).</p>
 
-                  <p>Sabe o que é mais bacana? Os V$ que você acumula, você troca por vouchers de desconto nas casas parceiras, barateando ainda mais os gastos da sua noitada!</p>
+                  <p>Sabe o que é mais bacana? Os V$ que você acumula, você troca por vouchers de desconto nas casas parceiras, tornando sua noite ainda mais <b>divertida</b> e <b>barata</b>!</p>
                 </div>
               </div>
               <div class="img_car" style="float:right;margin-left:0%;margin-right:10%;"><img src="imgs/images/p2.png" style="float:right;"></div>
@@ -97,6 +95,7 @@
               <div class="img_car" style="margin-top:100px;"><img src="imgs/images/p3.png"></div>
             </div>
           </div>
+          <div id="sr"><img src="imgs/sets/seta_r.png"></div>
           <div id="bolls">
             <div class="boll" id="b0"><img src="imgs/sets/bs.png"></div>
             <div class="boll" id="b1"><img src="imgs/sets/bn.png"></div>
@@ -109,15 +108,13 @@
           <div class="title_section" style="color:white;">Isso é só o começo!</div>
           <div class="cont">
             <div id="txt_time">
-            E vem muito mais pela frente! Atualmente estamos em fase beta, portanto contamos com o
-            seu feedback para podermos melhorar cada vez mais, versão após versão.
-            <br><br>
+            E vem muito mais pela frente! Atualmente estamos em fase beta, portanto contamos com o seu feedback para podermos melhorar cada vez mais, versão após versão.
             Não chegamos na sua cidade ainda? Fique tranquilo, em breve estaremos aí!
             <br><br>
-            Confira abaixo as cidades que já estão disponíveis em nosso aplicativo:
+            <div style="text-align:center;font-size:1.1em;">Confira abaixo as cidades que já estão disponíveis em nosso aplicativo:</div>
             </div>
             <div id="cities">
-              <div class="city" style="background-image:url('imgs/images/js-sc.jpg')"><div class="fundo_city"><div class="name_city">Jaraguá do Sul - SC</div></div></div>
+              <div class="city" style="background-image:url('imgs/images/js-sc.jpg');"><div class="fundo_city"><div class="name_city">Jaraguá do Sul - SC</div></div></div>
             </div>
             <img src="imgs/images/foguete.png" id="foguete">
           </div>
@@ -221,7 +218,7 @@
       <div id="fundo"></div>
       <div id="popup">
         <div class="cancel" id="cancel_popup"><img src="imgs/sets/ic_exit.png"></div>
-        <div id="title_popup">Deixe seu contato para ficar por dentro da Vou</div>
+        <div id="title_popup">Seja BETA! Cadastre seu e-mail e fique por dentro de tudo que está por vir!</div>
         <input type="text" name="nome" placeholder="Nome" id="nome_popup">
         <input type="text" name="email" placeholder="E-mail" id="email_popup">
         <input type="submit" name="Ok" id="submit_popup">
@@ -231,7 +228,7 @@
       <div id="bottom">
         <div id="content_bottom">
           <div class="cancel" id="cancel_bottom"><img src="imgs/sets/ic_exit.png"></div>
-          <div id="title_bottom">Deixe seu contato para ficar por dentro da Vou</div>
+          <div id="title_bottom">Seja BETA! Cadastre seu e-mail e fique por dentro de tudo que está por vir!</div>
           <input type="text" name="nome" placeholder="Nome" id="nome_bottom">
           <input type="text" name="email" placeholder="E-mail" id="email_bottom">
           <input type="submit" name="Ok" id="submit_bottom">
@@ -239,6 +236,7 @@
           <div id="erro_email_bottom"></div>
         </div>
       </div>
+      <a href="#home" class="scroll"><img id="top" src="imgs/sets/top.png">
       <script type="text/javascript" src="js/jquery.min.js"></script>
       <script type="text/javascript" src="js/sweetalert.min.js"></script>
       <script type="text/javascript" src="js/index.js"></script>
